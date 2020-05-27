@@ -28,7 +28,8 @@ header, #about, #work, #contact, #picker {
 /***** HEADER *****/
 
 header {
-    height: 800px;
+    height: 650px;
+    padding-bottom: 50px;
 }
 
 header img {
@@ -57,6 +58,7 @@ header p {
 
 nav {
     float: right;
+    padding-bottom: 100px;
 }
 
 nav ul li {
@@ -73,11 +75,31 @@ nav ul li a {
 
 /***** ABOUT *****/
 #about {
-    height: 1050px;
+    height: 800px;
     margin: auto;
     text-align: center;
     background-color: #343752;
     color: #FCFAFC;
+    padding-top: 100px;
+}
+
+#about h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+}
+
+#about img {
+    border: 10px solid #FCFAFC;
+}
+
+#about h4 {
+    font-size: 24px;
+}
+
+#about p {
+    padding-left: 400px;
+    padding-right: 400px;
+    font-size: 20px;
 }
 
 /***** WORK *****/
