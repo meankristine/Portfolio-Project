@@ -1,0 +1,99 @@
+/***** BASE STYLES *****/
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #333333;
+    background-color: #FCFAFC;
+}
+
+header, #about, #work, #contact, #picker {
+    height: 600px;
+}
+
+/***** GRID *****/
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/***** HEADER *****/
+
+header {
+    height: 800px;
+}
+
+header img {
+    display: inline;
+    padding-right: 28px;
+}
+
+header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 64px;
+    display: inline;
+}
+
+header h1 span {
+    color: #343752;
+}
+
+header h2 {
+    font-size: 48px;
+    font-weight: lighter;
+}
+
+header p {
+    visibility: hidden;
+}
+
+nav {
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 25px;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 24px;
+    color: #333333;
+}
+
+/***** ABOUT *****/
+#about {
+    height: 1050px;
+    margin: auto;
+    text-align: center;
+    background-color: #343752;
+    color: #FCFAFC;
+}
+
+/***** WORK *****/
+#work {
+    height: 850px;
+}
+
+/***** CONTACT *****/
+#contact {
+    height: 650px ;
+    background-color: #343752;
+    color: #FCFAFC;
+}
+
+/***** PICKER *****/
+#picker {
+    height: 200px;
+}
+
