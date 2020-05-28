@@ -9,6 +9,22 @@ header, #about, #work, #contact, #picker {
     height: 600px;
 }
 
+h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    text-align: center;
+}
+
+h4 {
+    font-size: 24px;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+}
+
 /***** GRID *****/
 .full-width {
     width: 1200px;
@@ -44,7 +60,8 @@ header h1 {
 }
 
 header h1 span {
-    color: #343752;
+    /* color: #5d536b; */
+    color: #7d6b91;
 }
 
 header h2 {
@@ -83,39 +100,66 @@ nav ul li a {
     padding-top: 100px;
 }
 
-#about h3 {
-    font-family: 'Playfair Display', serif;
-    font-size: 36px;
-}
-
 #about img {
     border: 10px solid #FCFAFC;
-}
-
-#about h4 {
-    font-size: 24px;
 }
 
 #about p {
     padding-left: 400px;
     padding-right: 400px;
-    font-size: 20px;
 }
 
 /***** WORK *****/
 #work {
-    height: 850px;
+    height: 700px;
+    margin: auto;
+    padding-top: 100px;
 }
+
+#work img {
+    height: 225px;
+    width: 350px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#work p {
+    padding-left: 40px;
+    padding-right: 40px;;
+}
+
 
 /***** CONTACT *****/
 #contact {
-    height: 650px ;
+    height: 500px ;
     background-color: #343752;
     color: #FCFAFC;
+    padding-top: 100px;
+}
+
+#contact ul li {
+    display: inline-block;
+    padding: 0 25px 0 25px;
 }
 
 /***** PICKER *****/
 #picker {
-    height: 200px;
+    height: 100px;
+    padding-top: 50px;
+    padding-left: 400px;
+    padding-right: 400px;
 }
 
+#picker button {
+    background-color: #343752;
+    border: none;
+    padding: 15px 32px;
+    display: inline-block;
+}
+
+#picker button a {
+    color: #FCFAFC;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+}
