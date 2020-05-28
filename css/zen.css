@@ -1,0 +1,67 @@
+/***** BASE STYLES *****/
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #095256;
+    font-size: 24px;
+    background-color: #ffffff;
+}
+
+#about, #work, #contact, #picker {
+    height: 600px;
+}
+
+h3 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 36px;
+    text-align: center;
+}
+
+/***** GRID *****/
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/***** HEADER *****/
+header {
+    height: 800px;
+    background-image: url(../img/hero-image-a.png);
+    background-size: cover;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 60px;
+    font-weight: bold;
+    color: #BDBF09;
+    padding-top: 350px;
+}
+
+h2 {
+    padding-left: 150px;
+    padding-right: 150px;
+    font-size: 48px;
+}
+
+/***** WORK *****/
+#work {
+    text-align: center;
+}
+
+#work img {
+    height: 350px;
+    width: 550px;
+}
+
+/***** ABOUT *****/
