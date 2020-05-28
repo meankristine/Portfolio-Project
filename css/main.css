@@ -146,8 +146,7 @@ nav ul li a {
 #picker {
     height: 100px;
     padding-top: 50px;
-    padding-left: 400px;
-    padding-right: 400px;
+    text-align: center;
 }
 
 #picker button {
