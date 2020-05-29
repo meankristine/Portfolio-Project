@@ -16,6 +16,15 @@ h3 {
     text-align: center;
 }
 
+h4 {
+    font-size:  24px;
+    font-weight: bold;
+}
+
+p {
+
+}
+
 /***** GRID *****/
 .full-width {
     width: 1200px;
@@ -34,21 +43,22 @@ h3 {
 
 /***** HEADER *****/
 header {
-    height: 800px;
+    height: 1000px;
     background-image: url(../img/hero-image-a.png);
     background-size: cover;
     text-align: center;
 }
 
-h1 {
+ header h1 {
     font-family: 'Roboto Slab', serif;
     font-size: 60px;
     font-weight: bold;
     color: #BDBF09;
     padding-top: 350px;
+    margin: 0;
 }
 
-h2 {
+header h2 {
     padding-left: 150px;
     padding-right: 150px;
     font-size: 48px;
@@ -56,12 +66,101 @@ h2 {
 
 /***** WORK *****/
 #work {
-    text-align: center;
+    height: 1000px;
+    padding-top: 75px;
+}
+
+#work div {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#work h3 {
+    margin-top: 0;
+}
+
+#work h4 {
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 #work img {
-    height: 275px;
-    width: 475px;
+    height: 225px;
+    width: 400px;
+    margin-left: 150px;
+    margin-bottom:5px;
+    border: 1px solid #b7b7b7;
+    vertical-align: middle;
 }
 
+#work p {
+    margin-top: 0;
+    margin-bottom: 35px;
+}
+
+
 /***** ABOUT *****/
+#about {
+    background-color: #087E8B;
+    padding-top: 75px;
+    color: #ffffff;
+    height: 500px;
+}
+
+#about h3 {
+    margin-top: 0;
+}
+
+#about h4 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#about img {
+    height: 440;
+    width: 400;
+    margin-left: 250px;
+    vertical-align: middle;
+    border: 1px solid #b7b7b7;
+}
+
+#about p {
+    margin-top: 25px;
+    margin-right: 150px;
+}
+
+/***** CONTACT *****/
+#contact {
+    text-align: center;
+    color: #ffffff;
+    background-color: #7F675B;
+    padding-top: 75px;
+    height: 400px;
+}
+
+#contact h3 {
+    margin: 0;
+}
+
+#contact ul li {
+    display: inline-block;
+    padding: 0 25px 0 0;
+}
+
+
+/***** PICKER *****/
+#picker {
+    height: 100px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+#picker button {
+    background-color: #087E8B;
+    border: none;
+    padding: 15px 32px;
+    display: inline-block;
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+}
