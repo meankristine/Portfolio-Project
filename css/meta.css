@@ -46,12 +46,14 @@ header {
 header h1 {
     font-family: 'VT323', monospace; 
     font-size: 24px;
-    /* background-color: #1D212B; */
+    padding: 10px 0 0 25px;
+    color: #FA0075;
 }
 
 nav {
     float: right;
     padding-bottom: 100px;
+    margin: auto;
 }
 
 nav ul {
@@ -68,8 +70,15 @@ nav ul li a {
     color: #ffffff;
 }
 
+header h2 {
+    font-size: 42px;
+    height: 300px;
+    clear: both;
+    padding: 250px 0 0 25px;
+}
+
 header h2 span{
     font-family: 'VT323', monospace;
-    font-size: 42px;
+    font-size: 50px;
     color: #A2EE37;
 }
