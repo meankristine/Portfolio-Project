@@ -87,6 +87,7 @@ header h2 span{
 #work {
     height: 1000px;
     padding-top: 75px;
+    padding-bottom: 100px;
     margin: auto;
 }
 
@@ -122,5 +123,30 @@ header h2 span{
 #work p {
     padding: 0 15px 0 15px;
 }
+
+/***** ABOUT *****/
+#about {
+    background-image: url(../img/about-me-c.png);
+    background-size: cover;
+    margin: auto;
+    clear: both;
+}
+
+#about h3 {
+    color: #FA0075;
+    text-align: center;
+    padding-top: 75px;
+}
+
+#about h4 {
+    color: #1D212B;
+}
+
+#about p {
+    color: #1D212B;
+    margin-right: 90px;
+}
+
+
 
 
