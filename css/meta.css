@@ -82,3 +82,45 @@ header h2 span{
     font-size: 50px;
     color: #A2EE37;
 }
+
+/***** WORK *****/
+#work {
+    height: 1000px;
+    padding-top: 75px;
+    margin: auto;
+}
+
+#work h3 {
+    color: #5BC0EB;
+    text-align: center;
+}
+
+#work div {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#work img {
+    height: 225px;
+    width: 400px;
+    vertical-align: middle;
+    margin: 0 25px 0 25px;
+}
+
+#work .right {
+    text-align: right;
+}
+
+#work .left {
+    text-align: left;
+}
+
+#work h4 {
+    padding: 0 15px 0 15px;
+}
+
+#work p {
+    padding: 0 15px 0 15px;
+}
+
+
