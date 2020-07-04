@@ -86,7 +86,7 @@ header h2 span{
 /***** WORK *****/
 #work {
     height: 1000px;
-    padding-top: 75px;
+    padding-top: 25px;
     padding-bottom: 100px;
     margin: auto;
 }
@@ -147,6 +147,35 @@ header h2 span{
     margin-right: 90px;
 }
 
+/***** CONTACT *****/
+#contact {
+    text-align: center;
+    padding-top: 25px;
+    height: 400px;
+}
 
+#contact h3 {
+    color: #FDE74C;
+}
 
+#contact ul li {
+    display: inline-block;
+    padding: 0 25px 0 0;
+}
 
+/***** PICKER *****/
+#picker {
+    height: 100px;
+    padding-top: 25px;
+    text-align: center;
+}
+
+#picker button {
+    background-color: #FA0075;
+    border: none;
+    padding: 15px 32px;
+    display: inline-block;
+    color: #1D212B;
+    text-align: center;
+    text-decoration: none;
+}
